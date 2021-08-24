@@ -9,7 +9,7 @@ namespace ContosoIOT.Portal
 {
     class Program
     {
-        private const string serviceConnectionString = ""; //IOT Hub Connection String
+        private const string serviceConnectionString = ""; //Connection String
         static async Task Main(string[] args)
         {
             var serviceClient = ServiceClient.CreateFromConnectionString(serviceConnectionString);

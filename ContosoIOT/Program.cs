@@ -29,11 +29,11 @@ namespace ContosoIOT.DeviceClientProject
                 await deviceClient.OpenAsync();
                 Console.WriteLine("Device is connected");
 
-                await ReceiveEvents(deviceClient);
+                //await ReceiveEvents(deviceClient);
 
                 Console.ReadKey();
 
-                //await SendTelemetry(deviceClient);
+                await SendTelemetry(deviceClient);
 
                 Console.ReadKey();
             }
