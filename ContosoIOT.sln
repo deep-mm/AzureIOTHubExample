@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoIOT.DPS", "ContosoIO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoIOT.Queue", "ContosoIOT.Queue\ContosoIOT.Queue.csproj", "{587EA25C-C670-4969-8565-D7B32648DE3C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoIOT.EventHub", "ContosoIOT.EventHub\ContosoIOT.EventHub.csproj", "{B585BC7C-2752-41FF-86DB-E145D792C7FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoIOT.EventHub", "ContosoIOT.EventHub\ContosoIOT.EventHub.csproj", "{B585BC7C-2752-41FF-86DB-E145D792C7FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContosoIOT.Cosmos", "ContosoIOT.Cosmos\ContosoIOT.Cosmos.csproj", "{22E9CDE5-F939-4CA9-ACB2-27299B2F113C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B585BC7C-2752-41FF-86DB-E145D792C7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B585BC7C-2752-41FF-86DB-E145D792C7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B585BC7C-2752-41FF-86DB-E145D792C7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E9CDE5-F939-4CA9-ACB2-27299B2F113C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E9CDE5-F939-4CA9-ACB2-27299B2F113C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E9CDE5-F939-4CA9-ACB2-27299B2F113C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E9CDE5-F939-4CA9-ACB2-27299B2F113C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
